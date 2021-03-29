@@ -10,7 +10,7 @@
         <button onclick="transmitMessage()">Send</button>
         <script>
             // Create a new WebSocket.
-            var socket  = new WebSocket('wss://www.nacos.org.ng/socket:8080');
+            var socket  = new WebSocket('wss://www.prime-socket.herokuapp.com:8080');
 
             // Define the 
             var message = document.getElementById('message');
